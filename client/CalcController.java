@@ -47,11 +47,11 @@ public class CalcController {
 		//String ip = "195.178.227.53";
 
 		try {
-			CalcClient clientA = new CalcClientA(ip, 721);
-			new CalcController(clientA);
+			//CalcClient clientA = new CalcClientA(ip, 721);
+			//new CalcController(clientA);
 
-//			CalcClient clientB = new CalcClientB(ip,722);
-//			new CalcController(clientB);
+		CalcClient clientB = new CalcClientB(ip,722);
+			new CalcController(clientB);
 
 //            CalcClient clientC = new CalcClientC(ip, 723);
 //            new CalcController(clientC);
