@@ -36,7 +36,9 @@ public class CalcController {
 			public void run() {
 				ui.setResult(response);
 			}
+
 		});
+		System.out.println("heehehe");
 	}
 	public static void main(String[] args) {
 		//ip hemifrån
