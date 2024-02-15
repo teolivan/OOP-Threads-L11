@@ -6,6 +6,7 @@ import java.net.Socket;
 
 public class CalcServerC {
     private Calculator calculator;
+    
 
     public CalcServerC(Calculator calculator, int port) {
         this.calculator = calculator;

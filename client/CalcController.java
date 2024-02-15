@@ -50,11 +50,11 @@ public class CalcController {
 			//CalcClient clientA = new CalcClientA(ip, 721);
 			//new CalcController(clientA);
 
-		CalcClient clientB = new CalcClientB(ip,722);
-			new CalcController(clientB);
+	//	CalcClient clientB = new CalcClientB(ip,722);
+		//	new CalcController(clientB);
 
-//            CalcClient clientC = new CalcClientC(ip, 723);
-//            new CalcController(clientC);
+            CalcClient clientC = new CalcClientC(ip, 723);
+            new CalcController(clientC);
 
 //            CalcClient clientD = new CalcClientD(ip, 724);
 //            new CalcController(clientD);
